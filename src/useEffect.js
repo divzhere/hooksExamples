@@ -4,7 +4,7 @@ import "./styles.css";
 export default function UseEffect() {
   return (
     <div className="App">
-      <MouseContainer />
+      <HookMouse />
     </div>
   );
 }
