@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
 
-export default function App() {
+export default function UseState() {
   return (
     <div className="App">
       <HookCounterThree />

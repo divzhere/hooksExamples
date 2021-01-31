@@ -1,12 +1,14 @@
 import React, { StrictMode } from "react";
 import ReactDOM from "react-dom";
 
-import App from "./App";
+import UseState from "./useState";
+import UseEffect from "./useEffect";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
   <StrictMode>
-    <App />
+    {/* <UseState /> */}
+    <UseEffect />
   </StrictMode>,
   rootElement
 );
